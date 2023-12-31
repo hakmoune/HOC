@@ -1,4 +1,5 @@
 import React from "react";
+import withLoader from "./withLoader";
 
 const User = () => {
     const user = {
@@ -12,4 +13,4 @@ const User = () => {
     </div>)
 }
 
-export default User;
+export default withLoader(User);
